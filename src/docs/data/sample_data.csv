@@ -1,0 +1,6 @@
+soil_moisture,temperature,rain_probability,decision
+720,35,10,IRRIGATE
+480,30,80,DELAY
+520,29,40,MONITOR
+680,33,20,IRRIGATE
+400,27,90,DELAY
