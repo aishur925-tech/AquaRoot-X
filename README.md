@@ -1,67 +1,76 @@
-AquaRoot-X
+AquaRootX 🌱💧
 
-Solar-Powered AI-Based Bidirectional Water Management System
+AI-Powered Bidirectional Water Management
 
 Tagline: Sensing the field. Predicting its needs. Optimizing every drop.
 
-1. Problem Statement
+📌 About the Project
 
-Farmers face water scarcity during dry periods and waterlogging during heavy rainfall. Traditional irrigation methods may waste water and energy, while excess water can damage crops and soil.
+AquaRootX is a smart agricultural water management project designed to help farmers make better irrigation decisions and address excess water in fields. It aims to reduce unnecessary watering, conserve water, and minimize waterlogging risks.
 
-2. Proposed Solution
+🎯 Problem Statement
 
-AquaRoot-X is a proposed smart agricultural water-management system that combines soil moisture sensing, intelligent decision logic, and solar power. It aims to support both irrigation and excess-water drainage.
+Traditional irrigation methods may waste water when soil moisture is already sufficient. Heavy rainfall and poor drainage can also cause waterlogging and damage crops.
 
-3. Key Features
+💡 Proposed Solution
 
-- Soil moisture monitoring
-- Smart irrigation recommendations
-- Four decisions: IRRIGATE, DELAY, MONITOR, and DRAIN
-- Solar-powered operation
-- Potential reduction in water wastage and crop damage
+AquaRootX aims to support four water-management decisions:
 
-4. Proposed Technology Stack
+- IRRIGATE: Water may be needed.
+- DELAY: Postpone irrigation when conditions do not require it.
+- MONITOR: Continue observing soil and weather conditions.
+- DRAIN: Identify situations where excess water may need to be removed.
 
-- Hardware: Arduino-compatible microcontroller, soil moisture sensor, water pump, and solar power system
-- Programming: Arduino C/C++
-- Decision system: Threshold-based control initially, with scope for weather-aware AI
-- Data: Soil moisture readings and recorded test results
+⚙️ Current Prototype
 
-5. System Workflow
+The current Arduino program reads a soil-moisture sensor value and compares it with a threshold of 600.
 
-Sense → Analyze → Decide → Act → Monitor
+- Moisture value above 600: "IRRIGATE"
+- Moisture value of 600 or below: "MONITOR"
 
-The system reads soil moisture and evaluates the configured conditions before recommending or triggering an action.
+A Python software simulation has also been executed successfully using sample moisture values.
 
-6. Current Development Status
+🧪 Testing Status
 
-Repository created. Hardware prototype, sensor integration, and functional testing are pending. Features will be marked complete only after implementation and testing.
+- Arduino code compilation: Passed
+- Python software simulation: Passed
+- Physical hardware testing: Pending
+- Weather-based prediction and automated drainage: Planned enhancements
 
-7. Planned Evaluation
+Note: Simulation results use sample inputs. Physical sensor readings and hardware operation have not yet been verified.
 
-- Sensor reading accuracy
-- Pump response time
-- Water used per test
-- Correct irrigation decisions
-- Drainage response under simulated excess-water conditions
+🛠️ Technologies
 
-8. Social Impact
+- Arduino C/C++
+- Python
+- GitHub
+- Soil-moisture threshold logic
 
-The project aims to support water conservation, sustainable agriculture, and climate-resilient farming.
+🌍 Sustainable Development Goals
 
-9. Sustainable Development Goals
-
-- SDG 2: Zero Hunger
 - SDG 6: Clean Water and Sanitation
-- SDG 7: Affordable and Clean Energy
+- SDG 2: Zero Hunger
 - SDG 12: Responsible Consumption and Production
 - SDG 13: Climate Action
 
-10. Future Work
+🚀 Future Enhancements
 
-Build the hardware prototype, test the system under controlled conditions, integrate weather information, and evaluate performance using measured results.
+- Weather forecast and rainfall integration
+- Solar-powered operation
+- AI-based irrigation recommendations
+- Excess-water detection and drainage control
+- Crop-specific irrigation decisions
 
-11. License
+👥 Team
 
-An open-source license will be added after the project files are prepared.# AquaRoot-X
-Solar-Powered AI-Based Bidirectional Water Management System
+Team Name: Spark Squad 
+Institution: Sri Sairam Engineering College
+
+Team Members : 
+R. AISHWARYA 
+K. Kishore 
+L.V. Janakidevi
+
+📄 License
+
+See the LICENSE file in this repository.
